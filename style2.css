@@ -1,0 +1,120 @@
+@font-face{
+    font-family: "kek";
+    src: url(NotoSerif-Regular.ttf);
+}
+
+html{
+    font-family: kek;
+    font-size: 20px;
+}
+
+.img{
+    background-image: url(map2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    resize: both;
+}
+nav{
+    position: fixed;
+    top: 160px;
+    width: 100%;
+    font-size:25px;
+    z-index: 100;
+    background: cover;
+}
+
+header{
+    position: fixed;
+    top: -60px;
+    background-image: url(map.jpg);
+    z-index: 100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+ul{
+    width: 100%;
+    position: relative;
+    list-style-type: none;
+    background-color: rgba(209, 177, 32);
+    box-shadow: rgb(88, 75, 38) 1px 1px 1px 1px;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    height: 20%;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.9);
+    font-size: 5em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+main{
+    position: relative;
+    top: 200px;
+    color: white;
+    left: 50px;
+    right: 50px;
+    display: inline-block;
+}
+
+.main{
+    background-color: rgba(83, 75, 75, 0.596);
+    border-radius: 60px;
+}
+.image{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    right: 10px;
+}
+
+.art1{
+    background:rgba(55, 59, 36, 0.5);
+    border-radius: 30px;
+    position: relative;
+}
+
+.art2{
+    background:rgba(85, 64, 36, 0.5);
+    border-radius: 30px;
+    position: relative;
+}
+
+.sec{
+    background:rgba(85, 36, 52, 0.5);
+    border-radius: 30px;
+    position: relative;
+}
+
+footer{
+    position: fixed;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+@media(max-width:1280px){
+
+}

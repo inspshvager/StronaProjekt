@@ -1,0 +1,253 @@
+@font-face{
+    font-family: "kek";
+    src: url(NotoSerif-Regular.ttf);
+}
+
+html{
+    font-family: kek;
+    font-size: 20px;
+}
+
+.img{
+    background-image: url(map2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    resize: both;
+}
+nav{
+    position: fixed;
+    top: 160px;
+    width: 100%;
+    font-size:25px;
+    z-index: 100;
+    background: cover;
+}
+
+#zaloguj{
+    float: right;
+    padding: 0px 20px 0px 0px;
+}
+
+header{
+    position: fixed;
+    top: -60px;
+    background-image: url(map.jpg);
+    z-index: 100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: auto;
+    background-color: rgba(209, 177, 32);
+    box-shadow: rgb(88, 75, 38) 1px 1px 1px 1px;
+}
+
+li{
+   float: left
+}
+
+li a{
+    height: 20%;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.9);
+    font-size: 5em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+main{
+    position: relative;
+    top: 200px;
+    color: white;
+    padding: 0px 50px 0px 50px;
+}
+
+.main{
+    padding: 25px 50px 25px 25px;
+    background-color: rgba(83, 75, 75, 0.596);
+    border-radius: 60px;
+}
+.image{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+.art1{
+    padding: 10px 10px 10px 20px;
+    margin: 10px 0 0 0;
+    background:rgba(55, 59, 36, 0.5);
+    border-radius: 30px;
+}
+
+.art2{
+    padding: 10px 10px 10px 20px;
+    margin: 10px 0 0 0;
+    background:rgba(85, 64, 36, 0.5);
+    border-radius: 30px;
+}
+
+.sec{
+    padding: 10px 10px 10px 20px;
+    margin: 10px 0 0 0;
+    background:rgba(85, 36, 52, 0.5);
+    border-radius: 30px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    width: 100%;
+    top: 20px;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+@media(max-width: 1280px){
+    .image{
+        padding: 60px 20px 60px 0;
+    }
+}
+
+@media(max-width: 768px){
+    h1{
+        font-size: 80px;
+        padding-top: 20px;
+    }
+    
+    li a{
+        font-size: 20px;
+        padding-right: 0;
+    }
+
+    .image{
+        padding: 270px 20px 270px 0;
+    }
+}
+
+@media(max-width: 320px){
+    h1{
+        font-size: 60px;
+        padding-right: 30px;
+    }
+
+    li a{
+        font-size: 12px;
+        padding-right: 10px;
+    }
+
+    h2{
+        font-size: 20px;
+        padding-top:50px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    .main{
+        font-size: 12px;
+        padding: 10px 10px 10px 15px;
+    }
+
+    .image{
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        float: left;
+        padding: 0 10px 0 0;
+    }
+
+    .art1{
+        font-size: 12px;
+    }
+
+    .art2{
+        font-size: 12px;
+    }
+
+    .sec{
+        font-size: 12px;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 240px){
+    h1{
+        font-size: 32px;
+        padding: 35px 10px 20px 0;
+    }
+    li a{
+        font-size: 8px;
+    }
+    nav{
+        top: 80px;
+    }
+
+    h2{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    main{
+        top: 100px;
+        padding: 10px 0 0 10px;
+    }
+}
+
+@media(max-width: 280px){
+    h1{
+        font-size: 50px;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    
+    li a{
+        font-size: 10px;
+    }
+
+    main{
+        top: 160px;
+        padding: 10px 0 0 10px;
+    }
+
+    .image{
+        padding: 0 20px 5px 20px;
+    }
+}
+
+@media(max-width:1024px){
+    .image{
+        padding: 105px 10px 105px 10px;
+    }
+}
